@@ -1,15 +1,15 @@
 # 运行方式
 ## 生成目标文件夹
 ```bash
-verilator -Wno-fatal Accumulator.v main.cpp --top-module Accumulator --cc --trace --exe
+verilator -Wno-fatal Top.v main.cpp --top-module Top --cc --trace --exe
 ```
 ## 编译
 ```bash
-make -C obj_dir -f VAccumulator.mk VAccumulator
+make -C obj_dir -f VTop.mk VTop
 ```
 ## 运行
 ```bash
-./obj_dir/VAccumulator
+./obj_dir/VTop
 ```
 ## 查看波形
 ```bash

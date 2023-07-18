@@ -1,4 +1,4 @@
-module Accumulator(
+module Top(
     input  wire[7:0] IO_Addend_0,
     input  wire[7:0] IO_Addend_1,
     input  wire[7:0] IO_Addend_2,
@@ -6,6 +6,8 @@ module Accumulator(
     output wire[9:0] IO_Result
 );
 
+// Code here
+// Sample:
 wire [8:0] sumAddend_0_1 = IO_Addend_0 + IO_Addend_1; 
 wire [8:0] sumAddend_2_3 = IO_Addend_2 + IO_Addend_3;
 assign IO_Result = sumAddend_0_1 + sumAddend_2_3; 
