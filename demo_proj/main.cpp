@@ -14,7 +14,6 @@ double sc_time_stamp() {
 }
 
 int main(int argc, char **argv) {
-
     Verilated::commandArgs(argc, argv);
     // --- 用于导出vcd波形
     Verilated::traceEverOn(true);
