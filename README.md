@@ -24,6 +24,21 @@ make -C obj_dir -f VTop.mk VTop
 ```bash
 gtkwave wave.vcd
 ```
+# Git命令提示
+- 克隆含有子模块的仓库
+  ```bash
+  git clone --recursive <仓库地址>
+  ```
+- 首次拉取子模块
+  ```bash
+  git submodule update --init --recursive
+  ```
+- 更新子模块
+  ```bash
+  git pull --recurse-submodules
+  #or
+  git submodule update --recursive --remote
+  ```  
 
 # 代码规范
 ## Verilog
