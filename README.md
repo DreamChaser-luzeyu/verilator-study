@@ -47,3 +47,10 @@ assign IO_Result = sumAddend_0_1 + sumAddend_2_3;
 
 endmodule
 ```
+# 杂项
+- 为什么仓库名叫ysys而不是ysyx？
+  - 因为不小心打错了，不好改
+
+# 其他README
+[仓库说明](repo_README.md)
+[资料整合](info_collection.md)
