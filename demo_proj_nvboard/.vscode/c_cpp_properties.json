@@ -5,6 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**", 
                 "${workspaceFolder}/obj_dir/**",
+                "${workspaceFolder}/../nvboard/include",
                 "/usr/include/linux",
                 "/usr/share/verilator/include",
             ],
