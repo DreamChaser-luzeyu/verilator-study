@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                // "${workspaceFolder}/**",
+                "${workspaceFolder}/build/obj_dir/**",
+                "${workspaceFolder}/../nvboard/include",
+                "/usr/include/linux",
+                "/usr/share/verilator/include",
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
