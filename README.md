@@ -65,7 +65,8 @@ endmodule
 # 杂项
 - 为什么仓库名叫ysys而不是ysyx？
   - 因为不小心打错了，不好改
-
+- VS Code开始报奇怪的头文件相关错误？
+  - 检查包含路径配置，如果配置正确，尝试重启VS Code，似乎是bug
 # 其他README
 [仓库说明](repo_README.md)
 [资料整合](info_collection.md)
