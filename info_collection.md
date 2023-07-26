@@ -16,7 +16,8 @@
 - Unofficial RISC-V Manual https://jemu.oscc.cc/
 - 数字设计与计算机体系结构 https://pages.hmc.edu/harris/ddca/ddcarv.html
 
-
+# Linux学习
+- https://101.ustclug.org/
 
 
 # Chisel语言学习
