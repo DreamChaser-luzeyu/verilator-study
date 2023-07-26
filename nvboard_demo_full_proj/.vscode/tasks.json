@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "options": {
         "env": {
-            "NVBOARD_HOME": "/media/luzeyu/Files/Study/verilator/nvboard/"
+            "NVBOARD_HOME": "${workspaceFolder}/../nvboard/"
         }
     },
     "tasks": [
