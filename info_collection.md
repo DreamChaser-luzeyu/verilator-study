@@ -19,6 +19,9 @@
 # Linux学习
 - https://101.ustclug.org/
 
-
 # Chisel语言学习
 - https://ysyx.oscc.cc/docs/2306/prestudy/0.5.html
+
+# 非技术资料
+- MIT的学术诚信诠释 http://integrity.mit.edu/
+- 提问模板 https://ysyx.oscc.cc/docs/2205/misc/ask.html
