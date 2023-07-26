@@ -68,5 +68,6 @@ endmodule
 - VS Code开始报奇怪的头文件相关错误？
   - 检查包含路径配置，如果配置正确，尝试重启VS Code，似乎是bug
 # 其他README
-[仓库说明](repo_README.md)
-[资料整合](info_collection.md)
+- [仓库说明](repo_README.md)
+- [资料整合](info_collection.md)
+- [项目说明](proj_list.md)
