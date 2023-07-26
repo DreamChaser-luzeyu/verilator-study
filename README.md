@@ -40,6 +40,12 @@ gtkwave wave.vcd
   git submodule update --recursive --remote
   ```  
 
+# 软件包依赖
+## nvboard
+```bash
+sudo apt install libsdl2-dev libsdl2-image-dev
+```
+
 # 代码规范
 ## Verilog
 - 模块名称遵守大驼峰命名规范
