@@ -25,6 +25,8 @@
   - 说明当前仓库中的子模块
 - [资料整合](info_collection.md)
   - 学习可能所需的各种资料
+- [重要知识点](study_bookmark.md) 
+  - 至关重要的思想、概念
 - [项目说明](proj_list.md)
   - 仓库中的各个项目功能或目的说明
 - [配置文档](config_doc.md)
