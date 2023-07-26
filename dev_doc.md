@@ -6,6 +6,7 @@
 
 # nvboard约束文件
 约束文件位于`<项目根目录>/constr/<顶层模块名>.nxdc`中。nvboard项目中的[Python脚本](nvboard/scripts/auto_pin_bind.py)会根据这一约束文件生成C++源文件，这个文件将被输出到`<项目根目录>/build/auto_bind.cpp`。这个文件会与项目一同编译。
+[nvboard官方README](nvboard/README.md)
 
 脚本解析约束文件的流程如下：
 - 解析命令行参数、检查环境变量
