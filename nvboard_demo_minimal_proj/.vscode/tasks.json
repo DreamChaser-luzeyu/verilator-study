@@ -12,11 +12,6 @@
             "type": "shell",
             "command": "make",
             "args": [
-                // "'-C'",
-                // "'obj_dir'",
-                // "'-f'",
-                // "'VTop.mk'",
-                // "'VTop'",
             ],
             "group": {
                 "kind": "build",
@@ -49,11 +44,6 @@
             "label": "Verilator Template: Clean",
             "type": "shell",
             "command": "make clean",
-            // "args":[
-            //     "-rf",
-            //     "'${workspaceFolder}/wave.vcd'",
-            //     "'${workspaceFolder}/obj_dir'",
-            // ],
             "group": {
                 "kind": "none",
                 "isDefault": false

@@ -1,29 +1,5 @@
-# 运行方式
-## VSCode Tasks
-确保.vscode目录中包含tasks.json配置文件。
-依次运行：
-- Terminal->Run Task->Verilator Template: Generate C/C++ Code
-- Terminal->Run Task->Verilator Template: Compile C/C++ Code
-- Terminal->Run Task->Verilator Template: Run Simulation
-- Terminal->Run Task->Verilator Template: Show Wave
-如不成功，尝试手动运行。
-## 手动运行
-### 生成目标文件夹
-```bash
-verilator -Wno-fatal Top.v main.cpp --top-module Top --cc --trace --exe
-```
-### 编译
-```bash
-make -C obj_dir -f VTop.mk VTop
-```
-### 运行
-```bash
-./obj_dir/VTop
-```
-### 查看波形
-```bash
-gtkwave wave.vcd
-```
+# 关于
+待补充
 # Git命令提示
 - 克隆含有子模块的仓库
   ```bash
@@ -40,11 +16,7 @@ gtkwave wave.vcd
   git submodule update --recursive --remote
   ```  
 
-# 软件包依赖
-## nvboard
-```bash
-sudo apt install libsdl2-dev libsdl2-image-dev
-```
+
 
 # 代码规范
 ## Verilog
@@ -75,5 +47,11 @@ endmodule
   - 检查包含路径配置，如果配置正确，尝试重启VS Code，似乎是bug
 # 其他README
 - [仓库说明](repo_README.md)
+  - 说明当前仓库中的子模块
 - [资料整合](info_collection.md)
+  - 学习可能所需的各种资料
 - [项目说明](proj_list.md)
+  - 仓库中的各个项目功能或目的说明
+- [配置文档](config_doc.md)
+  - 包含项目运行相关指导
+- [开发文档](dev_doc.md)
