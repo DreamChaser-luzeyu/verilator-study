@@ -15,6 +15,14 @@
   #or
   git submodule update --recursive --remote
   ```  
+- 修改nvboard远程仓库origin为fork出的仓库
+  ```bash
+  git remote set-url origin https://github.com/DreamChaser-luzeyu/nvboard.git
+  ```
+- 新增nvboard远程仓库upstream为官方的仓库
+  ```bash
+  git remote add upstream https://github.com/NJU-ProjectN/nvboard.git
+  ```
 # 杂项
 - 为什么仓库名叫ysys而不是ysyx？
   - 因为不小心打错了，不好改
