@@ -6,6 +6,7 @@
                 // "${workspaceFolder}/**",
                 "${workspaceFolder}/build/obj_dir/**",
                 "${workspaceFolder}/../nvboard/include",
+                "/usr/include",
                 "/usr/include/linux",
                 "/usr/share/verilator/include",
             ],

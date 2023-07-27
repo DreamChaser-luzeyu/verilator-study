@@ -30,6 +30,16 @@
             "problemMatcher": [],
         }, 
         {
+            "label": "Verilator Template: Run Simulation CLK Debug",
+            "type": "shell",
+            "command": "make run_debug",
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            },
+            "problemMatcher": [],
+        }, 
+        {
             "label": "Verilator Template: Show Wave",
             "type": "shell",
             "command": "gtkwave",
