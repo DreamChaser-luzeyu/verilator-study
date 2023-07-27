@@ -6,7 +6,9 @@
 - Terminal->Run Task->Verilator Template: Compile C/C++ Code
 - Terminal->Run Task->Verilator Template: Run Simulation
 - Terminal->Run Task->Verilator Template: Show Wave
+
 如不成功，尝试手动运行。
+此部分可能更新不及时。
 ## 手动运行
 ### 生成目标文件夹
 ```bash
