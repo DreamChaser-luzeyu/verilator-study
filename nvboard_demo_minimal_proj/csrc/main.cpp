@@ -28,8 +28,8 @@ void nvboard_bind_all_pins(Vtop* top);
 #ifdef CLK_DEBUG_MODE
 static uint8_t continue_flag;
 static uint8_t operate_flag;
-void sigroutine(int dunno) { /* 信号处理例程，其中dunno将会得到信号的值 */
-    cout << "** Detected Ctrl+Z, pause" << endl;
+void sigroutine(int dunno) { 
+    cout << " Detected Ctrl+Z, pause" << endl;
     continue_flag = 0;
     operate_flag = 0;
     return;
@@ -69,7 +69,8 @@ static void single_cycle() {
         }
         else if(cmd == "o" || cmd == "operate") {
             operate_flag = true;
-            cout << "** GUI is able to operate now" << endl;
+            cout << "** GUI is able to operate now." << endl;
+            cout << "Press Ctrl+Z to pause again." << endl;
         }
         else {
             cout << "Invalid command. Try again." << endl;
@@ -105,7 +106,7 @@ int main() {
     cout << "** s  step          no param" << endl;
     cout << "** st status        no param" << endl;
     cout << "** o  oeprate       no param" << endl;
-
+    // 注册Ctrl+Z停止信号
     signal(SIGTSTP, sigroutine);
 #endif
 
