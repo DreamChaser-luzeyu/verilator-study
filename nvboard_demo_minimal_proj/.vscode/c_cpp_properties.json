@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 // "${workspaceFolder}/**",
-                "${workspaceFolder}/build/obj_dir/**",
+                "${workspaceFolder}/verilator_build/obj_dir/**",
                 "${workspaceFolder}/../nvboard/include",
                 "/usr/include",
                 "/usr/include/linux",
