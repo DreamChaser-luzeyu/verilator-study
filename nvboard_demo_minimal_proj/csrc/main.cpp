@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <signal.h>
+#include <csignal>
 #include "nvboard.h"
 #include "Vtop.h"
 
@@ -29,7 +29,7 @@ void nvboard_bind_all_pins(Vtop* top);
 static uint8_t continue_flag;
 static uint8_t operate_flag;
 void sigroutine(int dunno) { 
-    cout << " Detected Ctrl+Z, pause" << endl;
+    cout << " Detected Ctrl+C, pause" << endl;
     continue_flag = 0;
     operate_flag = 0;
     return;
@@ -50,7 +50,7 @@ static void single_cycle() {
             cin >> param;
             if(std::stoll(param) == -1) {
                 continue_flag = true; 
-                cout << "Press Ctrl+Z to pause again." << endl;
+                cout << "Press Ctrl+C to pause again." << endl;
                 return;
             }
             dst_cycle = current_cycle + std::stoll(param);
@@ -81,7 +81,6 @@ static void single_cycle() {
         dut.clk = 1; dut.eval();
         current_cycle ++;
     }
-
 #else
     dut.clk = 0; dut.eval();
     dut.clk = 1; dut.eval();
@@ -106,13 +105,12 @@ int main() {
     cout << "** s  step          no param" << endl;
     cout << "** st status        no param" << endl;
     cout << "** o  oeprate       no param" << endl;
-    // 注册Ctrl+Z停止信号
-    signal(SIGTSTP, sigroutine);
+    // 注册Ctrl+C停止信号
+    signal(SIGINT, sigroutine);
 #endif
 
     nvboard_bind_all_pins(&dut);
     nvboard_init();
-
     reset(10);
 
     while(1) {
