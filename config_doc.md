@@ -1,4 +1,9 @@
-# 运行方式
+# 带有Makefile和CMakeLists.txt的项目
+可以直接使用CLion打开，为了能够正常使用代码跳转及补全，要以CMake项目的方式打开。打开项目后可以手动增加Makefile Target。
+
+也可以使用VS Code打开，使用Terminal->Run Task来执行make。
+
+# 无Makefile的项目
 ## VSCode Tasks
 确保.vscode目录中包含tasks.json配置文件。
 依次运行：
