@@ -1,3 +1,6 @@
 [submodule "nvboard"]
 	path = nvboard
 	url = https://github.com/NJU-ProjectN/nvboard.git
+[submodule "ysyx"]
+	path = ysyx
+	url = https://github.com/DreamChaser-luzeyu/ysyx.git
