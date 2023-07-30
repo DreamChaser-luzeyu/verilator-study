@@ -1,6 +1,8 @@
 # 带有Makefile和CMakeLists.txt的项目
 可以直接使用CLion打开，为了能够正常使用代码跳转及补全，要以CMake项目的方式打开。打开项目后可以手动增加Makefile Target。
 
+如果使用CLion开发，可以配合Verilog插件使用。
+
 也可以使用VS Code打开，使用Terminal->Run Task来执行make。
 
 # 无Makefile的项目
