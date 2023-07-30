@@ -84,5 +84,6 @@ show_wave:
 
 clean:
 	rm -rf $(BUILD_DIR)
+	rm -rf wave.vcd
 
 .PHONY: default all clean run
