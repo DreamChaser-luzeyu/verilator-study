@@ -59,7 +59,7 @@ static void single_cycle() {
     pthread_mutex_lock(&PauseFlagLock);
     uint8_t pause_flag = (!continue_flag) && (!operate_flag);
     pthread_mutex_unlock(&PauseFlagLock);
-    if(pause_flag && (CurrentCycle_GV >= (dst_cycle+1))) {
+    if(pause_flag && (CurrentCycle_GV >= dst_cycle)) {
         cout << "> ";
         string cmd;
         string param;
