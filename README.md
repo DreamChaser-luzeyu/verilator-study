@@ -7,6 +7,10 @@
 - 如果你希望快速得到一个Verilator项目模板，请参考[项目说明](proj_list.md)
 
 # Git命令提示
+- 新增子模块
+  ```bash
+  git submodule add <仓库Git地址> <本地子模块路径>
+  ```
 - 克隆含有子模块的仓库
   ```bash
   git clone --recursive <仓库地址>

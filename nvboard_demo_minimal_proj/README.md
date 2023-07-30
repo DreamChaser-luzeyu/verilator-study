@@ -13,8 +13,13 @@
   - 使用Verilator生成仿真源代码，并编译出二进制可执行文件，并在外部终端中执行
   - 外部终端默认使用Konsole,如果系统终端不是Konsole，需要手动修改Makefile，以修改所使用的终端
   - 会启用`CLK_DEBUG_MODE`宏包围的代码，启用后支持单周期调试
+- make run_debug_dump_external_terminal
+  - 使用Verilator生成仿真源代码，并编译出二进制可执行文件，并在外部终端中执行
+  - 外部终端默认使用Konsole,如果系统终端不是Konsole，需要手动修改Makefile，以修改所使用的终端
+  - 会启用`CLK_DEBUG_MODE`宏包围的代码，启用后支持单周期调试
+  - 会启用`DUMP_WAVE`宏包围的代码，启用后将存储仿真波形
 - make clean
-  - 删除所有生成的代码与二进制文件
+  - 删除所有生成的代码与二进制文件以及波形文件
   
 ## 示例功能
 1. 左边8个LED为流水灯效果
