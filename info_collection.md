@@ -25,3 +25,4 @@
 # 非技术资料
 - MIT的学术诚信诠释 http://integrity.mit.edu/
 - 提问模板 https://ysyx.oscc.cc/docs/2205/misc/ask.html
+- "一生一芯"项目wiki https://oscpu.github.io/ysyx/wiki/index.html
