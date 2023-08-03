@@ -42,6 +42,8 @@
 # 其他README
 - [仓库说明](repo_README.md)
   - 说明当前仓库中的子模块
+- [工具软件](tools.md)
+  - 实用的软件
 - [资料整合](info_collection.md)
   - 学习可能所需的各种资料
 - [重要知识点](study_bookmark.md) 
