@@ -4,3 +4,6 @@
 [submodule "ysyx"]
 	path = ysyx
 	url = https://github.com/DreamChaser-luzeyu/ysyx.git
+[submodule "qemu"]
+	path = qemu
+	url = https://github.com/DreamChaser-luzeyu/qemu.git
