@@ -4,3 +4,5 @@
 - Verilog开发的几种建模方式
   - https://nju-projectn.github.io/dlco-lecture-note/exp/01.html#id5
 
+## 基础知识
+### Kconfig配置系统

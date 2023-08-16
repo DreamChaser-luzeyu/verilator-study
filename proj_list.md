@@ -10,4 +10,6 @@
   - 将nvboard上的RST按钮与Verilog模块中的rst信号绑定
   - 改进了Makefile，无需配置`NVBOARD_HOME`环境变量即可正常make
   - 编写了CMakeList.txt，支持直接使用CLion打开项目
+- `qemu` [项目说明](qemu/README.md)
+  - 个人fork的QEMU官方源码
   

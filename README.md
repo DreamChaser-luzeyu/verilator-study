@@ -23,7 +23,7 @@
   ```bash
   git pull --recurse-submodules
   # or
-  git submodule update --recursive --remote
+  git submodule update --init --recursive
   ```  
 - 修改nvboard远程仓库origin为fork出的仓库
   ```bash
